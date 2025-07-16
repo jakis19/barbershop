@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barber Shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+                <li><img class="logo-animada" src="images/logo3_resized.png" alt="Barber Shop" /></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="contato.html" target="_blank">Contato</a></li>
+                <li><a href="localiza.html">Mapa</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAPA -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Localização</h2>
+            <img src="images/heading-ic.png" alt="Ícone de Cabeçalho" />
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3713.467932394993!2d-46.99327903735793!3d-21.45014869171426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b7b9cc46fa7a47%3A0xae2761c7699d34a2!2sAv.%20Paulo%20Zerbinatti%2C%20350%20-%20Conj.%20Hab.%20Nelson%20Niero%2C%20Mococa%20-%20SP%2C%2013737-780!5e0!3m2!1spt-BR!2sbr!4v1749049254377!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <span>Av. Paulo Zerbinatti, 350 - Mococa/SP</span>
+            <span class="social-icons">
+                <a href="https://www.instagram.com/jaquebarber019?igsh=a3QyOWZoZ2IybWJp" target="_blank"
+                    aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/13978131608" target="_blank" aria-label="WhatsApp"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="mailto:jbvbrechol1908@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </span>
+            <span style="color:#aaa; font-size:12px;">&copy; 2025 Barber Shop</span>
+        </div>
+    </footer>
+
+
+    <script>
+        document.querySelectorAll('.box').forEach(box => {
+            box.addEventListener('click', function () {
+                box.classList.toggle('flipped');
+            });
+        });
+    </script>
+</body>
+
+</html>

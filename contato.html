@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barber Shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+                <li><img class="logo-animada" src="images/logo3_resized.png" alt="Barber Shop" /></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="contato.html" target="_blank">Contato</a></li>
+                <li><a href="localiza.html">Mapa</a></li>
+            </ul>
+        </nav>
+        <section class="appointment" id="appointment">
+            <div class="container">
+                <h2>Faça um Agendamento</h2>
+                <img src="images/heading-ic.png" alt="Ícone de Cabeçalho" />
+                <div class="boxes">
+                    <form action="">
+                        <div class="personal-data">
+                            <div class="input-wraper">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" placeholder="Digite o seu nome" />
+                            </div>
+                            <div class="input-wraper">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="Digite o seu e-mail" />
+                            </div>
+                            <div class="input-wraper">
+                                <label for="phone">Telefone</label>
+                                <input type="text" id="phone" placeholder="Digite o seu telefone" />
+                            </div>
+                            <div class="input-wraper">
+                                <label for="service">Tipo de serviço</label>
+                                <select id="service">
+                                    <option value="cortar-cabelo">Cortar Cabelo</option>
+                                    <option value="cortar-cabelo-barba">Barba</option>
+                                    <option value="cortar-cabelo-barba">Cortar Cabelo/Barba</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-wraper">
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+        </section>
+    </header>
+    <footer class="footer">
+        <div class="footer-content">
+            <span>Av. Paulo Zerbinatti, 350 - Mococa/SP</span>
+            <span class="social-icons">
+                <a href="https://www.instagram.com/jaquebarber019?igsh=a3QyOWZoZ2IybWJp" target="_blank"
+                    aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/13978131608" target="_blank" aria-label="WhatsApp"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="mailto:jbvbrechol1908@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </span>
+            <span style="color:#aaa; font-size:12px;">&copy; 2025 Barber Shop</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
